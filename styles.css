@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color:indianred;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input {
+    height: 35px;
+    width: 245px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#add {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+#list {
+    background-color: white;
+    padding: 25px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+
+#delete {
+    border-radius: 5px;
+}
+
+
+.task {
+    background-color: white;
+    height: 40px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    cursor: pointer;
+}
+
+.task span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.task button {
+    /* background-color: violet; */
+    background-color: grey;
+    color: black;
+    font-size: 15px;
+    height: 100%;
+    width: 55px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.task button:hover {
+    background-color: lightgray;
+}
+
+.done {
+    text-decoration: line-through;
+}
